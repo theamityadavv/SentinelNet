@@ -20,9 +20,9 @@ SentinelNet/
 └─ README.md
 
 ---
-
-#🐍 2. Create and Activate a Virtual Environment  
-
+<p align="center">
+<h2>#🐍 2. Create and Activate a Virtual Environment  </h2?
+</p>
 <p align="center">
 Set up a dedicated <b>Python virtual environment</b> to keep dependencies isolated and organized.  
 </p>
