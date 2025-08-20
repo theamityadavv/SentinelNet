@@ -21,6 +21,8 @@ SentinelNet/
 
 ---
 
+---
+
 <h2 align="center">🐍 2. Create and Activate a Virtual Environment</h2>
 
 <p align="center">
