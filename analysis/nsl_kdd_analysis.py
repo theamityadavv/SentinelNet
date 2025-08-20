@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 nsl_kdd_path = r"C:\Users\amity\SentinelNet\data\NSL-KDD"
 print("NSL-KDD files:", os.listdir(nsl_kdd_path))
 
+
 # Load training dataset
 nsl_train = pd.read_csv(os.path.join(nsl_kdd_path, "KDDTrain+.txt"), header=None)
 
