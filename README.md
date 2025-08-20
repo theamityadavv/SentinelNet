@@ -20,19 +20,26 @@ SentinelNet/
 └─ README.md
 
 
-## 📊 Dataset  
+<h3 align="center">🔹 2. Create and Activate a Virtual Environment</h3>
 
 <p align="center">
-The project uses the <b>NSL-KDD dataset</b>, a widely used benchmark for <b>network intrusion detection</b>.  
+To keep dependencies isolated, create a <b>virtual environment</b> and activate it based on your operating system.
 </p>
 
-- 📘 **Training dataset:** `KDDTrain+.txt`  
-- 📡 Each record describes a <b>network connection</b> with multiple features  
-- ⚔️ Labels indicate whether the traffic is <b>normal</b> or an <b>attack</b> (various categories)  
+<hr/>
 
-<p align="center">
-🔗 <a href="https://www.kaggle.com/datasets/hassan06/nslkdd" target="_blank"><b>NSL-KDD Dataset (Kaggle)</b></a>
-</p>
+<h4>💻 Create Environment</h4>
+<pre><code>python -m venv .venv</code></pre>
+
+<hr/>
+
+<h4>🪟 Windows PowerShell</h4>
+<pre><code>&amp; .venv/Scripts/Activate.ps1</code></pre>
+
+<hr/>
+
+<h4>🐧 Linux / Mac</h4>
+<pre><code>source .venv/bin/activate</code></pre>
 
 
 ## ⚙️ Installation  
