@@ -2,16 +2,17 @@
 
 The goal of this project is to develop an AI-powered **Network Intrusion Detection System (NIDS)** capable of identifying malicious network traffic and cyber-attacks in real time. By leveraging machine learning techniques, the system classifies traffic as normal or suspicious based on historical data.
 
-## Project Structure
+## 📂 Project Structure
 
+```text
 SentinelNet/
 ├─ data/
-│ └─ NSL-KDD/
-│   └─ KDDTrain+.txt
+│  └─ NSL-KDD/
+│     └─ KDDTrain+.txt
 ├─ analysis/
-│ └─ nsl_kdd_analysis.py
+│  └─ nsl_kdd_analysis.py
 ├─ notebooks/
-│ └─ load_and_explore.py
+│  └─ load_and_explore.py
 └─ README.md
 
 
