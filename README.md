@@ -20,19 +20,12 @@ SentinelNet/
 └─ README.md
 
 ---
+## 🐍 2. Create and Activate a Virtual Environment  
 
----
-
-<h2 align="center">🐍 2. Create and Activate a Virtual Environment</h2>
-
-<p align="center">
-Set up a dedicated <b>Python virtual environment</b> to keep dependencies isolated and organized.  
-</p>
-
----
+Set up a dedicated **Python virtual environment** to keep dependencies isolated and organized.  
 
 ```bash
-# 🛠️ Create a new virtual environment
+# Create a new virtual environment
 python -m venv .venv
 
 # ▶️ Activate on Windows PowerShell
@@ -40,6 +33,7 @@ python -m venv .venv
 
 # 🐧 Activate on Linux/Mac
 source .venv/bin/activate
+
 
 ## ⚙️ Installation  
 
