@@ -16,12 +16,17 @@ SentinelNet/
 └─ README.md
 
 
-## Dataset
+📊 Dataset
 
-The project uses the **NSL-KDD dataset**, a popular benchmark dataset for network intrusion detection:
+The project uses the NSL-KDD dataset, a widely used benchmark for network intrusion detection.
 
-- **Training dataset:** `KDDTrain+.txt`  
-- The dataset contains multiple features describing network connections, along with labels indicating attack type or normal traffic.
+Training dataset: KDDTrain+.txt
+
+Each record describes a network connection with multiple features.
+
+Labels indicate whether the traffic is normal or an attack (various categories).
+
+For more details, see: NSL-KDD Dataset
 
 ## Installation
 
