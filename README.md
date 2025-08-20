@@ -27,8 +27,10 @@ SentinelNet/
 Set up a dedicated <b>Python virtual environment</b> to keep dependencies isolated and organized.  
 </p>
 
+---
+
 ```bash
-# Create a new virtual environment
+# 🛠️ Create a new virtual environment
 python -m venv .venv
 
 # ▶️ Activate on Windows PowerShell
@@ -36,7 +38,6 @@ python -m venv .venv
 
 # 🐧 Activate on Linux/Mac
 source .venv/bin/activate
-
 
 ## ⚙️ Installation  
 
