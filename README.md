@@ -19,27 +19,24 @@ SentinelNet/
 │  └─ load_and_explore.py
 └─ README.md
 
+---
 
-<h3 align="center">🔹 2. Create and Activate a Virtual Environment</h3>
+## 🐍 2. Create and Activate a Virtual Environment  
 
 <p align="center">
-To keep dependencies isolated, create a <b>virtual environment</b> and activate it based on your operating system.
+Set up a dedicated <b>Python virtual environment</b> to keep dependencies isolated and organized.  
 </p>
 
-<hr/>
+```bash
+# Create a new virtual environment
+python -m venv .venv
 
-<h4>💻 Create Environment</h4>
-<pre><code>python -m venv .venv</code></pre>
+# ▶️ Activate on Windows PowerShell
+& .venv/Scripts/Activate.ps1
 
-<hr/>
+# 🐧 Activate on Linux/Mac
+source .venv/bin/activate
 
-<h4>🪟 Windows PowerShell</h4>
-<pre><code>&amp; .venv/Scripts/Activate.ps1</code></pre>
-
-<hr/>
-
-<h4>🐧 Linux / Mac</h4>
-<pre><code>source .venv/bin/activate</code></pre>
 
 
 ## ⚙️ Installation  
