@@ -1,6 +1,10 @@
-# SentinelNet
+<h1 align="center">🛡️ SentinelNet</h1>
 
-The goal of this project is to develop an AI-powered **Network Intrusion Detection System (NIDS)** capable of identifying malicious network traffic and cyber-attacks in real time. By leveraging machine learning techniques, the system classifies traffic as normal or suspicious based on historical data.
+<p align="center">
+An AI-powered <b>Network Intrusion Detection System (NIDS)</b> that detects malicious traffic and cyber-attacks in real time using Machine Learning.
+</p>
+
+---
 
 ## 📂 Project Structure
 
@@ -16,22 +20,32 @@ SentinelNet/
 └─ README.md
 
 
-## 📊 Dataset
+## 📊 Dataset  
 
-The project uses the **NSL-KDD dataset**, a widely used benchmark for network intrusion detection.  
+<p align="center">
+The project uses the <b>NSL-KDD dataset</b>, a widely used benchmark for <b>network intrusion detection</b>.  
+</p>
 
-- **Training dataset:** `KDDTrain+.txt`  
-- Each record describes a **network connection** with multiple features  
-- Labels indicate whether the traffic is **normal** or an **attack** (various categories)  
+- 📘 **Training dataset:** `KDDTrain+.txt`  
+- 📡 Each record describes a <b>network connection</b> with multiple features  
+- ⚔️ Labels indicate whether the traffic is <b>normal</b> or an <b>attack</b> (various categories)  
 
-For more details, see: [NSL-KDD Dataset](https://www.kaggle.com/datasets/hassan06/nslkdd)
+<p align="center">
+🔗 <a href="https://www.kaggle.com/datasets/hassan06/nslkdd" target="_blank"><b>NSL-KDD Dataset (Kaggle)</b></a>
+</p>
 
-## ⚙️ Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/SpringBoardMentor193s/SentinelNet.git
-   cd SentinelNet
+## ⚙️ Installation  
+
+Follow these steps to set up the project on your local machine:  
+
+---
+
+### 🔹 1. Clone the repository  
+```bash
+git clone https://github.com/SpringBoardMentor193s/SentinelNet.git
+cd SentinelNet
+
 
 ### 2. Create and activate a virtual environment
 
