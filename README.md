@@ -16,27 +16,24 @@ SentinelNet/
 └─ README.md
 
 
-📊 Dataset
+## 📊 Dataset
 
-The project uses the NSL-KDD dataset, a widely used benchmark for network intrusion detection.
+The project uses the **NSL-KDD dataset**, a widely used benchmark for network intrusion detection.  
 
-Training dataset: KDDTrain+.txt
+- **Training dataset:** `KDDTrain+.txt`  
+- Each record describes a **network connection** with multiple features  
+- Labels indicate whether the traffic is **normal** or an **attack** (various categories)  
 
-Each record describes a network connection with multiple features.
+For more details, see: [NSL-KDD Dataset](https://www.kaggle.com/datasets/hassan06/nslkdd)
 
-Labels indicate whether the traffic is normal or an attack (various categories).
+## ⚙️ Installation
 
-For more details, see: NSL-KDD Dataset
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/SpringBoardMentor193s/SentinelNet.git
+   cd SentinelNet
 
-## Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/SpringBoardMentor193s/SentinelNet.git
-cd SentinelNet
-
-2. Create and activate a virtual environment:
+### 2. Create and activate a virtual environment
 
 python -m venv .venv
 # Windows PowerShell
@@ -44,14 +41,21 @@ python -m venv .venv
 # Linux/Mac
 source .venv/bin/activate
 
-3. Install dependencies:
+### 3. Install dependencies
 
+Install all required Python libraries using:
+
+```bash
 pip install -r requirements.txt
 
-4. Usage
 
-Analysis script: analysis/nsl_kdd_analysis.py
+## 🚀 Usage
 
-Jupyter notebook: notebooks/load_and_explore.py
+- **Run the analysis script**
+  ```bash
+  python analysis/nsl_kdd_analysis.py
 
-Run the notebook or script to explore the NSL-KDD dataset, analyze attack categories, and perform basic data preprocessing.
+- **Explore via Jupyter Notebook**
+  ```bash
+  jupyter notebook notebooks/load_and_explore.py
+
