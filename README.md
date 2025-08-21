@@ -74,4 +74,4 @@ The project uses the **NSL-KDD dataset**, which includes features describing net
 
 ## 📖 Documentation
 
-Refer to `docs/data_overview.md` for details on dataset sources, schema, and summary statistics.
+Refer to `https://github.com/SpringBoardMentor193s/SentinelNet/blob/10bb40432b8b25131207bacf99b0d9a88d76481c/docs/data_overview.md` for details on dataset sources, schema, and summary statistics.
