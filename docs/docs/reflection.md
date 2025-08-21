@@ -7,3 +7,4 @@ Analyzing the NSL-KDD dataset reveals clear patterns in network traffic. Most tr
 Despite identifiable patterns, detecting intrusions is challenging due to several factors. Firstly, attacks constantly evolve, making historical data sometimes insufficient for predicting new threats. Secondly, subtle attacks like R2L or U2R often resemble normal traffic, creating **high false-negative rates**. Thirdly, real network environments produce huge volumes of traffic, requiring efficient real-time analysis. Finally, some features are categorical or sparse, demanding advanced preprocessing and feature engineering.
 
 Overall, network intrusion detection requires **adaptive and intelligent models** that can generalize across evolving attack patterns while maintaining low false positives and high accuracy.
+ 
