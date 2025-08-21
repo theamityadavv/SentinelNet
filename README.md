@@ -1,14 +1,12 @@
-<h1 align="center">🛡️ SentinelNet</h1>
+# 🛡️ SentinelNet
 
-<p align="center">
-An AI-powered <b>Network Intrusion Detection System (NIDS)</b> that detects malicious traffic and cyber-attacks in real time using Machine Learning.
-</p>
+**SentinelNet** is an AI-powered **Network Intrusion Detection System (NIDS)** capable of identifying malicious network traffic and cyber-attacks in real time. By leveraging machine learning techniques, the system classifies network traffic as **normal** or **suspicious** based on historical data.
 
 ---
 
 ## 📂 Project Structure
 
-```text
+````text
 SentinelNet/
 ├─ data/
 │  └─ NSL-KDD/
@@ -17,59 +15,63 @@ SentinelNet/
 │  └─ nsl_kdd_analysis.py
 ├─ notebooks/
 │  └─ load_and_explore.py
+├─ docs/
+│  └─ data_overview.md
 └─ README.md
 
 ---
-## 🐍 2. Create and Activate a Virtual Environment  
 
-Set up a dedicated **Python virtual environment** to keep dependencies isolated and organized.  
+## 🐍 Setup & Installation
 
-```bash
-# Create a new virtual environment
-python -m venv .venv
-
-# ▶️ Activate on Windows PowerShell
-& .venv/Scripts/Activate.ps1
-
-# 🐧 Activate on Linux/Mac
-source .venv/bin/activate
-
-
-## ⚙️ Installation  
-
-Follow these steps to set up the project on your local machine:  
-
----
-
-### 🔹 1. Clone the repository  
+1. **Clone the repository:**
 ```bash
 git clone https://github.com/SpringBoardMentor193s/SentinelNet.git
 cd SentinelNet
+````
 
+2. **Create and activate a virtual environment:**
 
-### 2. Create and activate a virtual environment
-
+```bash
 python -m venv .venv
 # Windows PowerShell
 & .venv/Scripts/Activate.ps1
 # Linux/Mac
 source .venv/bin/activate
+```
 
-### 3. Install dependencies
-
-Install all required Python libraries using:
+3. **Install dependencies:**
 
 ```bash
 pip install -r requirements.txt
+```
 
+---
 
 ## 🚀 Usage
 
-- **Run the analysis script**
-  ```bash
-  python analysis/nsl_kdd_analysis.py
+* **Run analysis script:**
 
-- **Explore via Jupyter Notebook**
-  ```bash
-  jupyter notebook notebooks/load_and_explore.py
+```bash
+python analysis/nsl_kdd_analysis.py
+```
 
+* **Run Jupyter notebook:**
+
+```bash
+jupyter notebook notebooks/load_and_explore.py
+```
+
+---
+
+## 📄 Dataset
+
+The project uses the **NSL-KDD dataset**, which includes features describing network connections and labels for attack types or normal traffic.
+
+* **Training dataset:** `KDDTrain+.txt`
+* Explore dataset via Pandas for statistics and visualizations.
+
+---
+
+## 📖 Documentation
+
+Refer to `docs/data_overview.md` for details on dataset sources, schema, and summary statistics.
