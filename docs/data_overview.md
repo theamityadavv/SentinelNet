@@ -3,7 +3,7 @@
 ## Dataset Source
 
 The NSL-KDD dataset is a benchmark dataset for network intrusion detection.
-**Source:** [NSL-KDD Dataset](https://www.unb.ca/cic/datasets/nsl.html)
+**Source:** [NSL-KDD Dataset](https://www.kaggle.com/datasets/hassan06/nslkdd)
 
 **Files Used:**
 
