@@ -91,7 +91,7 @@ print(nsl_train.groupby(['attack_category', 'label']).size())
 #
 
 # Bar chart for attack categories
-nsl_train['attack_category'].value_counts().plot(kind='bar', figsize=(6,4))
+nsl_train['attack_category'].value_counts().plot(kind='bar', figsize=(8,5))
 plt.title("Attack Category Distribution")
 plt.xlabel("Category")
 plt.ylabel("Count")
