@@ -1,8 +1,7 @@
 # 🚨 SentinelNet – AI-Powered Network Intrusion Detection System (NIDS)
 
 ## 📌 Project Overview  
-SentinelNet is an AI-driven Network Intrusion Detection System that leverages machine learning to analyze and classify network traffic in real time.  
-It extracts important features from traffic data, trains classification models, and raises alerts whenever anomalies or malicious activities are detected.  
+SentinelNet is an AI-driven Network Intrusion Detection System that leverages machine learning to analyze and classify network traffic in real time. It extracts important features from traffic data, trains classification models, and raises alerts whenever anomalies or malicious activities are detected.  
 
 ---
 
