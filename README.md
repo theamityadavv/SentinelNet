@@ -1,35 +1,28 @@
 # SentinelNet – AI-Powered Network Intrusion Detection System (NIDS)
 
-## Project Statement
-The goal of this project is to develop an AI-powered Network Intrusion Detection System (NIDS) capable of identifying malicious network traffic and cyber-attacks in real time. By leveraging machine-learning techniques, the system will classify traffic as normal or suspicious based on historical data. The tool will process network flow data, extract relevant features, train classification models, and generate alerts/logs for detected anomalies.
+## 📌 Project Overview  
+SentinelNet is an AI-driven Network Intrusion Detection System that leverages machine learning to analyze and classify network traffic in real time. It extracts important features from traffic data, trains classification models, and raises alerts whenever anomalies or malicious activities are detected.  
 
-## Outcomes
-- Understand network-traffic patterns and common cyber-attack types  
-- Apply ML algorithms to detect intrusions  
-- Build & evaluate models (Decision Tree, Random Forest, SVM, etc.)  
-- Perform feature engineering and anomaly detection  
-- Generate alerts/logs for detected threats  
-- Prepare a concise report and presentation of findings
+---
 
-## Datasets / Platform
-Use well-known public intrusion-detection datasets for training and testing:  
-- **NSL-KDD**: https://www.unb.ca/cic/datasets/nsl.html  
-- **CICIDS2017**: https://www.unb.ca/cic/datasets/ids-2017.html
+## 📊 Datasets Used  
 
-## Modules to be Implemented
-1. Dataset acquisition & exploration  
-2. Data cleaning & preprocessing  
-3. Feature engineering & selection  
-4. Model building & training  
-5. Evaluation (accuracy, precision, recall, F1, confusion matrix)  
-6. Alerting/reporting (logs/summary of detected anomalies)  
-7. Documentation (README + data overview)
+- **[NSL-KDD](https://www.unb.ca/cic/datasets/nsl.html)**  
+  - Classic dataset with **42 features**.  
+  - Attack categories: **DoS, Probe, U2R, R2L**.  
 
-## Tech Stack
-- **Language:** Python 3.x  
-- **Libraries:** pandas, numpy, scikit-learn, matplotlib/seaborn  
-- **Tools:** Jupyter/Colab, Git/GitHub
+- **[CICIDS2017](https://www.unb.ca/cic/datasets/ids-2017.html)**  
+  - Modern dataset with **80+ flow-based features**.  
+  - Includes varied real-world attacks such as **DDoS, Brute Force, SQL Injection, Botnets, Port Scans**, etc.  
 
-## License
-MIT License
-"@ | Set-Content -Encoding UTF8 README.md
+---
+
+## ⚙️ Key Features  
+- Data preprocessing & cleaning pipeline.  
+- Feature extraction & selection for effective detection.  
+- Model training with algorithms such as **Decision Tree, Random Forest, SVM**.  
+- Performance evaluation using **Accuracy, Precision, Recall, F1-score**.  
+- Anomaly detection with **alerting and reporting** system.  
+
+---
+ 
